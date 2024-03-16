@@ -1,0 +1,59 @@
+[{
+    "education": [{
+        "id": 0,
+        "course": "Diploma in Information Technology",
+        "years": "2021 - 2024",
+        "school": "Singapore Polytechnic"
+    },
+    {
+        "id": 1,
+        "course": "GCE 'O' Level",
+        "years": "2017 - 2020",
+        "school": "Ang Mo Kio Secondary School" 
+    },
+    {
+        "id": 2,
+        "course": "PSLE (Primary School Leaving Examination)",
+        "years": "2011 - 2016",
+        "school": "Zhonghua Primary School"
+    }],
+    "skills": [{
+        "id": 0,
+        "skill": "Full-Stack Development",
+        "proficiency": "100%"
+    }, 
+    {
+        "id": 1,
+        "skill": "Project Management",
+        "proficiency": "100%"
+    }, 
+    {
+        "id": 2,
+        "skill": "Adaptability",
+        "proficiency": "90%"
+    }, 
+    {
+        "id": 3,
+        "skill": "SQL",
+        "proficiency": "80%"
+    }, 
+    {
+        "id": 4,
+        "skill": "Time Management",
+        "proficiency": "70%"
+    }],
+    "projects": [{
+        "id": 0,
+        "name": "hha-portfolio",
+        "url": "https://github.com/HeinHtetAung5142/hha-portfolio",
+        "description": "My Personal Portfolio Website",
+        "techstack": "React / TypeScript / Tailwind"
+    },
+    {
+        "id": 1,
+        "name": "socket-chat-app",
+        "url": "https://github.com/HeinHtetAung5142/socket-chat-app",
+        "description": "A collaboration full-stack project with friends, where we created a chat application that supported direct communication between two users and direct messaging between multiple users in a group.",
+        "techstack": "Socket.io / Next.js / Typescript / React / Prisma"
+    }]
+}]

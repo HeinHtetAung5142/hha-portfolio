@@ -56,9 +56,40 @@ export default function Home() {
             </span>
           </h2>
           {expandedEducation && (
-            <p className={`m-0 text-sm opacity-50`}>
-              Explore my academic journey, including my degree program, university, achievements, and academic honors.
-            </p>
+            <div className="p-5">
+              <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-green-900">
+                    <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path className="fill-current text-green-500" fillRule="evenodd" d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </span>
+                  <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Diploma in Information Technology <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Latest</span></h3>
+                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021 - 2024</time>
+                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Singapore Polytechnic</p>
+                </li>
+                <li className="mb-10 ms-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-green-900">
+                    <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path className="fill-current text-green-500" fillRule="evenodd" d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </span>
+                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">O-Level Certification</h3>
+                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2017 - 2020</time>
+                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Ang Mo Kio Secondary School</p>
+                </li>
+                <li className="ms-6">
+                  <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-green-900">
+                    <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path className="fill-current text-green-500" fillRule="evenodd" d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                    </svg>
+                  </span>
+                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">PSLE Certification</h3>
+                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2011 - 2016</time>
+                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">Zhonghua Primary School</p>
+                </li>
+              </ol>
+            </div>
           )}
         </div>
         <div
@@ -72,9 +103,48 @@ export default function Home() {
             </span>
           </h2>
           {expandedSkills && (
-            <p className={`m-0 text-sm opacity-50`}>
-              Discover my technical prowess! Explore a comprehensive list of my skills and proficiencies in various IT domains.
-            </p>
+            <div className="p-5">
+              <div className="pb-2">
+                <p>
+                  Full-Stack Development
+                </p>
+                <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div className="bg-green-500 text-center p-0.5 leading-none rounded-full" style={{ width: '100%' }}> 100%</div>
+                </div>
+              </div>
+              <div className="py-2">
+                <p>
+                  Project Management
+                </p>
+                <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div className="bg-green-500 text-center p-0.5 leading-none rounded-full" style={{ width: '100%' }}> 100%</div>
+                </div>
+              </div>
+              <div className="py-2">
+                <p>
+                  Adaptability
+                </p>
+                <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div className="bg-green-500 text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
+                </div>
+              </div>
+              <div className="py-2">
+                <p>
+                  SQL
+                </p>
+                <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div className="bg-green-500 text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
+                </div>
+              </div>
+              <div className="pt-2">
+                <p>
+                  Time Management
+                </p>
+                <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div className="bg-green-500 text-center p-0.5 leading-none rounded-full" style={{ width: '70%' }}> 70%</div>
+                </div>
+              </div>
+            </div>
           )}
         </div>
         <div
@@ -88,9 +158,56 @@ export default function Home() {
             </span>
           </h2>
           {expandedProjects && (
-            <p className={`m-0 text-sm opacity-50`}>
-              Dive into my portfolio of projects! Explore real-world examples of my work, including descriptions, roles, technologies used, and outcomes achieved.
-            </p>
+            <div className="py-5">
+              <div className="border border-green-500 rounded p-5 mb-4">
+                <div className="flex items-center">
+                  <svg className='inline-block h-5 w-5 mr-2' viewBox='0 0 16 16'>
+                    <path className="fill-current text-green-500" fillRule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+                  </svg>
+                  <a href="https://github.com/HeinHtetAung5142/hha-portfolio" target="_blank" className="text-green-500 font-bold">hha-portfolio</a>
+                </div>
+                <p className="py-2">My Personal Portfolio Website.</p>
+                <div className='flex items-center'>
+                  <svg className='inline-block h-full w-5 mr-1 mb-1.5' viewBox='0 0 16 16' xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="white" cx="50%" cy="65%" r="5" />
+                  </svg>
+                  <p className="font-bold">React / TypeScript / Tailwind</p>
+                </div>
+              </div>
+              <div className="border border-green-500 rounded p-5 mb-4">
+                <div className="flex items-center">
+                  <svg className='inline-block h-5 w-5 mr-2' viewBox='0 0 16 16'>
+                    <path className="fill-current text-green-500" fillRule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+                  </svg>
+                  <a href="https://github.com/HeinHtetAung5142/socket-chat-app" target="_blank" className="text-green-500 font-bold">socket-chat-app</a>
+                </div>
+                <p className="py-2">A collaboration full-stack project with friends, where we created a chat application that supported direct communication between two users and direct messaging between multiple users in a group.</p>
+                <div className='flex items-center'>
+                  <svg className='inline-block h-full w-5 mr-1 mb-1.5' viewBox='0 0 16 16' xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="white" cx="50%" cy="65%" r="5" />
+                  </svg>
+                  <p className="font-bold">Socket.io / Next.js / Typescript / React / Prisma</p>
+                </div>
+              </div>
+              <div className="border border-green-500 rounded p-5 mb-4">
+                <div className="flex items-center">
+                  <svg className='inline-block h-5 w-5 mr-2' viewBox='0 0 16 16'>
+                    <path className="fill-current text-green-500" fillRule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+                  </svg>
+                  <a href="https://github.com/HeinHtetAung5142/To-Do" target="_blank" className="text-green-500 font-bold">To-Do</a>
+                </div>
+                <p className="py-2">A comprehensive Task Manager project that encompasses various aspects, including automated task scheduling via cron jobs, efficient email communication using a dedicated database, and intuitive task management features, all aimed at enhancing productivity and organization.</p>
+                <div className='flex items-center'>
+                  <svg className='inline-block h-full w-5 mr-1 mb-1.5' viewBox='0 0 16 16' xmlns="http://www.w3.org/2000/svg">
+                    <circle fill="white" cx="50%" cy="65%" r="5" />
+                  </svg>
+                  <p className="font-bold">Luxon / DaisyUI / Cron Job / React / Supabase / SendinBlue</p>
+                </div>
+              </div>
+            </div>
           )}
         </div>
       </div>
