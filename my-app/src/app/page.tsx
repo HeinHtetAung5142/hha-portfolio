@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 
+// data
+
 export default function Home() {
   const [expandedEducation, setExpandedEducation] = useState(false);
   const [expandedSkills, setExpandedSkills] = useState(false);
@@ -41,7 +43,33 @@ export default function Home() {
           <h1>Hello,</h1>
           <h1>I&apos;m <span className="text-green-500">Htet Aung!</span></h1>
         </div>
-        <div className="text-center p-5"><h2>A graduate from Singapore Polytechnic with a diploma in Information Technology. I have a keen interest in Web Design and Project Management.</h2> </div>
+        <div className="text-center p-5"><h2>A graduate from Singapore Polytechnic with a diploma in Information Technology. I have a keen interest in Web Design and Project Management, and love collaborating with team members!</h2> </div>
+        <div className="text-green-500 font-bold flex items-center justify-between">
+          <a className="flex" download="Hein Htet Aung Resume" href="../download/Hein_Htet_Aung_Resume.pdf">
+            <div>Resume</div>
+            <svg className="w-6 h-6 text-green-500 ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01" />
+            </svg>
+          </a>
+          <a className="flex" href="https://www.linkedin.com/in/hein-htet-aung-5b8944210/" target="_blank">
+            <div>LinkedIn</div>
+            <svg className="w-6 h-6 text-green-500 ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
+            </svg>
+          </a>
+          <a className="flex" href="https://github.com/HeinHtetAung5142" target="_blank">
+            <div>Github</div>
+            <svg className="w-6 h-6 text-green-500 ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
+            </svg>
+          </a>
+          <a className="flex" href="mailto:hhaung5142@gmail.com" target="_blank">
+            <div>Email</div>
+            <svg className="w-6 h-6 text-green-500 ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
+            </svg>
+          </a>
+        </div>
       </div>
 
       <div className="text-left col-span-7">
